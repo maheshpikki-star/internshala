@@ -1,7 +1,7 @@
 default:
   image: node:16.16.0
 variables:
-  VERCEL_TOKEN: "KabfOl9WF7w2LWyMqqvSfHvA"
+  VERCEL_TOKEN: KabfOl9WF7w2LWyMqqvSfHvA
   VERCEL_ORG_ID: Lz3MkjHFeqvAvS3WeXIA0tN5
   VERCEL_PROJECT_ID: prj_mijnO2VgqjfdSAQI146u1MTSHiQ1
 deploy_preview:
