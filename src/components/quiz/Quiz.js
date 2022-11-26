@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import quizSvg_1 from "../../assests/svg/quiz/quiz-2.svg";
 import quizSvg_2 from "../../assests/svg/quiz/quiz-1.svg";

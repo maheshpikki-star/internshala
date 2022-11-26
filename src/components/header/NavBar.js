@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import logo from "../../assests/svg/apxor-logo.com.svg";
 import notification from "../../assests/svg/notification.svg";

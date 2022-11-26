@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import course from "../../../assests/svg/agenda.svg";
 import community from "../../../assests/svg/chat-group.svg";

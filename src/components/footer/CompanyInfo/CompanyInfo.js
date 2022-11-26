@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import GooglePlayIcon from "../../../assests/svg/googleplay.svg";
 import AppleStoreIcon from "../../../assests/svg/applestore.svg";

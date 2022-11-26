@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect } from "react";
 import Footer from "../../../footer/Footer";
 import Accordion from "../../accordion/Accordion";

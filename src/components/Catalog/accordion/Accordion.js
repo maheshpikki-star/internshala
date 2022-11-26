@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useRef } from "react";
 import UpArrow from "../../../assests/svg/up-arrow.svg";
 import DownArrow from "../../../assests/svg/down-arrow.svg";
