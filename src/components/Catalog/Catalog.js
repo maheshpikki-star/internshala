@@ -72,7 +72,7 @@ const subjects = [
 
 const Catalog = () => {
   useEffect(() => {
-    document.title = "Learn.Code";
+    document.title = "Internshala";
   }, []);
   return (
     <div className="catalogContainer__outer">
