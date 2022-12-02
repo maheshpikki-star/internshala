@@ -7,7 +7,7 @@ import CE from "apxor-qe";
 import ApxorRTM from "apxor-rtm";
 import { BrowserRouter } from "react-router-dom";
 
-Apxor.init("b0bf1fc7-b104-4e92-9cc5-590fcb685c29", {
+Apxor.init("cfd1eb74-b691-4971-96a3-113d77df9dc5", {
   plugins: ["ApxorRTM"],
   deps: [ApxorRTM, CE],
   version: "0.1",

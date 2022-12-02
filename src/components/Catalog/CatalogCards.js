@@ -45,7 +45,7 @@ const CatalogCard = () => {
 
       <div className="cardContainer__subgrid-1-row">
         <CareerPathCard title={"Data Scientist"} svg={dataScientist} />
-        <CourseCard title={"Welcome to Learn.Code"} />
+        <CourseCard title={"Welcome to Internshala"} />
       </div>
     </div>
   );
