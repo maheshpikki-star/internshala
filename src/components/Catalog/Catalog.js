@@ -87,7 +87,6 @@ const Catalog = () => {
           <div className="catalogContainer__inner">
             <Quiz />
             <PopularCatalog />
-            <NewsNoteWorth />
             <GetInpsire />
           </div>
         </div>
