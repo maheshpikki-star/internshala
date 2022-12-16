@@ -51,7 +51,7 @@ const CourseCatalog = () => {
               Code Foundations
             </a>
             <a href="/subjects/git" onClick={logLoadEvent}>
-              Guide href Git
+              Guide to Git
             </a>
             <a href="/subjects/webdev" onClick={logLoadEvent}>
               Web Development
