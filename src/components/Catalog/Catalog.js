@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import Quiz from "../quiz/Quiz";
 import PopularCatalog from "./PopularCatalog";
-import NewsNoteWorth from "./newsNoteWorthy/NewsNoteWorth";
 import GetInpsire from "./getInspireSectiion/GetInspire";
 import Footer from "../footer/Footer";
 import Accordion from "./accordion/Accordion";
@@ -87,7 +86,6 @@ const Catalog = () => {
           <div className="catalogContainer__inner">
             <Quiz />
             <PopularCatalog />
-            <NewsNoteWorth />
             <GetInpsire />
           </div>
         </div>
