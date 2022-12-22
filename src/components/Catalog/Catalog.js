@@ -4,73 +4,105 @@ import PopularCatalog from "./PopularCatalog";
 import GetInpsire from "./getInspireSectiion/GetInspire";
 import Footer from "../footer/Footer";
 import Accordion from "./accordion/Accordion";
+import Apxor from "apxor";
 const languages = [
   {
     desc: "HTML & CSS",
     loc: "/languages/htmlcss/intro",
+    type: "Language",
+    topic: "",
   },
   {
     desc: "JavaScript",
     loc: "/languages/javascript/intro",
+    type: "Language",
+    topic: "",
   },
   {
     desc: "Scala",
     loc: "/languages/scala/intro",
+    type: "Language",
+    topic: "",
   },
   {
     desc: "Go lang",
     loc: "/languages/golang/intro",
+    type: "Language",
+    topic: "",
   },
   {
     desc: "SQL",
     loc: "/languages/sql/intro",
+    type: "Language",
+    topic: "",
   },
   {
     desc: "Bash/Shell",
     loc: "/languages/bash/intro",
+    type: "Language",
+    topic: "",
   },
   {
     desc: "Objective-C",
     loc: "/languages/objectivec/intro",
+    type: "Language",
+    topic: "",
   },
   {
     desc: "Swift",
     loc: "/languages/swift/intro",
+    type: "Language",
+    topic: "",
   },
 ];
 const subjects = [
   {
     desc: "Code Foundations",
     loc: "/subjects/codefoundations",
+    type: "Subjects",
+    topic: "",
   },
   {
     desc: "Guide to Git",
     loc: "/subjects/git",
+    type: "Subjects",
+    topic: "",
   },
   {
     desc: "Web Development",
     loc: "/subjects/webdev",
+    type: "Subjects",
+    topic: "",
   },
   {
     desc: "Computer Science",
     loc: "/subjects/cs",
+    type: "Subjects",
+    topic: "",
   },
   {
     desc: "Developer Tools",
     loc: "/subjects/devtools",
+    type: "Subjects",
+    topic: "",
   },
   {
     desc: "Functional Programming",
     loc: "/subjects/funcprogramming",
+    type: "Subjects",
+    topic: "",
   },
   {
     desc: "Web design",
     loc: "/subjects/webdesign",
+    type: "Subjects",
+    topic: "",
   },
 ];
 
 const Catalog = () => {
   useEffect(() => {
+    Apxor.logEvent("HomePageLauched");
     document.title = "Internshala";
   }, []);
   return (

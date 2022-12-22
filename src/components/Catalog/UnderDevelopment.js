@@ -1,11 +1,7 @@
 import React, { useEffect } from "react";
 import Apxor from "apxor";
 const UnderDevelopment = () => {
-  useEffect(() => {
-    Apxor.logEvent("PAGE_NOT_BUILT", {
-      path: window.location.pathname,
-    });
-  }, []);
+  useEffect(() => {}, []);
 
   return (
     <div className="catalogContainer__outer">
