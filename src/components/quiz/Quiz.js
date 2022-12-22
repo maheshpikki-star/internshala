@@ -6,13 +6,11 @@ import Apxor from "apxor";
 
 const Quiz = () => {
   const takeQuiz = () => {
-    Apxor.logEvent("QUIZ_INITIATED", {});
-    console.log("Quiz initiated");
+    Apxor.logEvent("TakeOurQuizClicked", {});
   };
   return (
     <div className="quiz">
       <button className="quiz__catalog-btn">Catalog Menu →</button>
-
       <a href="#" className="quiz__box">
         <div className="quiz__box-items">
           <img src={quizSvg_1} alt="quiz svg" className="quizSvg_1" />

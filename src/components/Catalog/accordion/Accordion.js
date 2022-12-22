@@ -19,10 +19,11 @@ const Accordion = ({ Links, title }) => {
     }
   };
 
-  const logLoadEvent = (e) => {
-    Apxor.logEvent("COURSE_SELECTED", {
-      course: e?.target?.innerText,
-      from: "Sidebar",
+  const logMenuEvent = (e, desc, type, topic) => {
+    Apxor.logEvent("SideMenuItemClicked", {
+      "Item type": type,
+      "Item name": desc,
+      "Item topic": topic,
     });
   };
   return (
@@ -38,9 +39,13 @@ const Accordion = ({ Links, title }) => {
       </button>
       <div className="panel" ref={accordionBtn}>
         {Links.map((link, index) => {
-          const { loc, desc } = link;
+          const { loc, desc, type, topic } = link;
           return (
-            <Link to={loc} key={index} onClick={logLoadEvent}>
+            <Link
+              to={loc}
+              key={index}
+              onClick={(e) => logMenuEvent(e, desc, type, topic)}
+            >
               {desc}
             </Link>
           );

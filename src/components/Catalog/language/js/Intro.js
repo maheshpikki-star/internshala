@@ -2,8 +2,10 @@ import React, { useEffect } from "react";
 import Apxor from "apxor";
 const Intro = () => {
   useEffect(() => {
-    Apxor.logEvent("COURSE_OPENED", {
-      course: "JS_INTRO",
+    Apxor.logEvent("ItemPageViewed", {
+      "Item type": "Language",
+      "Item name": "JavaScript",
+      ItemTopic: "Intro",
     });
   }, []);
   return (
@@ -46,9 +48,9 @@ const Intro = () => {
         height="720"
         src="https://www.youtube.com/embed/W6NZfCO5SIk"
         title="JavaScript Tutorial for Beginners: Learn JavaScript in 1 Hour"
-        frameborder="0"
+        frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
+        allowFullScreen
         id="youtubeVideo"
       ></iframe>
       <p>

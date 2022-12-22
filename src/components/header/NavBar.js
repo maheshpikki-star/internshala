@@ -90,9 +90,6 @@ const NavBar = () => {
           <>
             <div className="navbar__mobile-list">
               <DropDownItems />
-              <button className="dropdown-mobile-btn btn">
-                Try pro for free
-              </button>
             </div>
           </>
         ) : null}

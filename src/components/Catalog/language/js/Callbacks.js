@@ -2,8 +2,10 @@ import React, { useEffect } from "react";
 import Apxor from "apxor";
 const Callbacks = () => {
   useEffect(() => {
-    Apxor.logEvent("COURSE_OPENED", {
-      course: "JS_Callbacks",
+    Apxor.logEvent("ItemPageViewed", {
+      "Item type": "Language",
+      "Item name": "JavaScript",
+      ItemTopic: "Callbacks",
     });
   }, []);
   return (

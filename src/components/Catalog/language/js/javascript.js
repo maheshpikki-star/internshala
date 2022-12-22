@@ -20,54 +20,80 @@ const topics = [
   {
     desc: "Intro",
     loc: "/languages/javascript/intro",
+    type: "Topic",
+    topic: "JavaScript",
   },
   {
     desc: "Variables",
     loc: "/languages/javascript/variables",
+    type: "Topic",
+    topic: "JavaScript",
   },
   {
     desc: "Functions",
     loc: "/languages/javascript/functions",
+    type: "Topic",
+    topic: "JavaScript",
   },
   {
     desc: "Arrays",
     loc: "/languages/javascript/arrays",
+    type: "Topic",
+    topic: "JavaScript",
   },
   {
     desc: "Objects",
     loc: "/languages/javascript/objects",
+    type: "Topic",
+    topic: "JavaScript",
   },
   {
     desc: "Modules",
     loc: "/languages/javascript/modules",
+    type: "Topic",
+    topic: "JavaScript",
   },
   {
     desc: "Classes",
     loc: "/languages/javascript/classes",
+    type: "Topic",
+    topic: "JavaScript",
   },
   {
     desc: "this",
     loc: "/languages/javascript/thiskeyword",
+    type: "Topic",
+    topic: "JavaScript",
   },
   {
     desc: "Callbacks",
     loc: "/languages/javascript/callbacks",
+    type: "Topic",
+    topic: "JavaScript",
   },
   {
     desc: "Promises",
     loc: "/languages/javascript/promises",
+    type: "Topic",
+    topic: "JavaScript",
   },
   {
     desc: "Async",
     loc: "/languages/javascript/asyncop",
+    type: "Topic",
+    topic: "JavaScript",
   },
   {
     desc: "Await",
     loc: "/languages/javascript/awaitop",
+    type: "Topic",
+    topic: "JavaScript",
   },
   {
     desc: "ES6 Concepts",
     loc: "/languages/javascript/es6",
+    type: "Topic",
+    topic: "JavaScript",
   },
 ];
 

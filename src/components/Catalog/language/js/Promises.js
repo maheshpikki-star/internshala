@@ -2,8 +2,10 @@ import React, { useEffect } from "react";
 import Apxor from "apxor";
 const Promises = () => {
   useEffect(() => {
-    Apxor.logEvent("COURSE_OPENED", {
-      course: "JS_PROMISES",
+    Apxor.logEvent("ItemPageViewed", {
+      "Item type": "Language",
+      "Item name": "JavaScript",
+      ItemTopic: "Promises",
     });
   }, []);
   return (

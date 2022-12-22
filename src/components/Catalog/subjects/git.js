@@ -2,8 +2,10 @@ import React, { useEffect } from "react";
 import Apxor from "apxor";
 const Git = () => {
   useEffect(() => {
-    Apxor.logEvent("SUBJECT_OPENED", {
-      course: "GIT_INTRO",
+    Apxor.logEvent("ItemPageViewed", {
+      "Item type": "Subjects",
+      "Item name": "Git",
+      ItemTopic: "Git learning path",
     });
   }, []);
   return (
