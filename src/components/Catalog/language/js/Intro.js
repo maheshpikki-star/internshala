@@ -48,7 +48,6 @@ const Intro = () => {
         height="720"
         src="https://www.youtube.com/embed/W6NZfCO5SIk"
         title="JavaScript Tutorial for Beginners: Learn JavaScript in 1 Hour"
-        frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
         id="youtubeVideo"
