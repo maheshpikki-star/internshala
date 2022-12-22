@@ -72,9 +72,8 @@ const Git = () => {
         height="315"
         src="https://www.youtube.com/embed/videoseries?list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF"
         title="YouTube video player"
-        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
+        allowFullScreen
       ></iframe>
       <br></br>
       <p>A practical guide to git</p>
@@ -83,9 +82,8 @@ const Git = () => {
         height="315"
         src="https://www.youtube.com/embed/r50BKIFGCI0"
         title="YouTube video player"
-        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
+        allowFullScreen
       ></iframe>
       <h2 id="git-exercises">Exercises</h2>
       <h3>Exercise 1</h3>
