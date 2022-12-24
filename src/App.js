@@ -3,6 +3,7 @@ import NavBar from "./components/header/NavBar";
 import Catalog from "./components/Catalog/Catalog";
 import JavaScript from "./components/Catalog/language/js/javascript";
 import Git from "./components/Catalog/subjects/git";
+import DevEnv from "./components/Catalog/subjects/devenv";
 import { Routes, Route } from "react-router-dom";
 import UnderDevelopment from "./components/Catalog/UnderDevelopment";
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/subjects">
           <Route path="codefoundations" element={<h1>Hello</h1>} />
           <Route path="git" element={<Git />} />
+          <Route path="devenv" element={<DevEnv />} />
           <Route path="webdev" element={<h1>Hello</h1>} />
           <Route path="cs" element={<h1>Hello</h1>} />
           <Route path="devtools" element={<h1>Hello</h1>} />
