@@ -57,14 +57,20 @@ const languages = [
 ];
 const subjects = [
   {
-    desc: "Code Foundations",
-    loc: "/subjects/codefoundations",
+    desc: "Guide to Git",
+    loc: "/subjects/git",
     type: "Subjects",
     topic: "",
   },
   {
-    desc: "Guide to Git",
-    loc: "/subjects/git",
+    desc: "Development Environment",
+    loc: "/subjects/devenv",
+    type: "Subjects",
+    topic: "",
+  },
+  {
+    desc: "Code Foundations",
+    loc: "/subjects/codefoundations",
     type: "Subjects",
     topic: "",
   },
