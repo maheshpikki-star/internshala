@@ -10,9 +10,6 @@ const Git = () => {
   }, []);
   return (
     <div id="subjects_git" className="subjects">
-      <br></br>
-      <br></br>
-      <br></br>
       <h1>Git - A version control system</h1>
       <h2 id="git-learning-path">Learning Path</h2>
       <h3 id="git-basics">Basics</h3>
