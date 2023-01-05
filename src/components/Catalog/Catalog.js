@@ -7,26 +7,32 @@ import Accordion from "./accordion/Accordion";
 import Apxor from "apxor";
 const languages = [
   {
-    desc: "HTML & CSS",
-    loc: "/languages/htmlcss/intro",
-    type: "Language",
-    topic: "",
-  },
-  {
     desc: "JavaScript",
     loc: "/languages/javascript/intro",
     type: "Language",
     topic: "",
   },
   {
-    desc: "Scala",
-    loc: "/languages/scala/intro",
+    desc: "Go lang",
+    loc: "/languages/golang/intro",
     type: "Language",
     topic: "",
   },
   {
-    desc: "Go lang",
-    loc: "/languages/golang/intro",
+    desc: "Objective-C",
+    loc: "/languages/objectivec/intro",
+    type: "Language",
+    topic: "",
+  },
+  {
+    desc: "HTML & CSS",
+    loc: "/languages/htmlcss/intro",
+    type: "Language",
+    topic: "",
+  },
+  {
+    desc: "Scala",
+    loc: "/languages/scala/intro",
     type: "Language",
     topic: "",
   },
@@ -42,12 +48,7 @@ const languages = [
     type: "Language",
     topic: "",
   },
-  {
-    desc: "Objective-C",
-    loc: "/languages/objectivec/intro",
-    type: "Language",
-    topic: "",
-  },
+
   {
     desc: "Swift",
     loc: "/languages/swift/intro",
