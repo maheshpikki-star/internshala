@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import Footer from "../../../footer/Footer";
-import Accordion from "../../accordion/Accordion";
+import Footer from "../../footer/Footer";
+import Accordion from "../../Catalog/accordion/Accordion";
 import { useParams } from "react-router-dom";
 import Intro from "./Intro";
 import Variables from "./Variables";
@@ -15,6 +15,7 @@ import Promises from "./Promises";
 import AsyncOp from "./AsyncOp";
 import AwaitOp from "./AwaitOp";
 import ES from "./Es6";
+import Exercises from "./Exercises";
 
 const topics = [
   {
@@ -95,6 +96,12 @@ const topics = [
     type: "Topic",
     topic: "JavaScript",
   },
+  {
+    desc: "Exercises",
+    loc: "/languages/javascript/exercises",
+    type: "Topic",
+    topic: "JavaScript",
+  },
 ];
 
 const JavaScript = () => {
@@ -129,6 +136,7 @@ const JavaScript = () => {
             {article === "asyncop" ? <AsyncOp /> : ""}
             {article === "awaitop" ? <AwaitOp /> : ""}
             {article === "es6" ? <ES /> : ""}
+            {article === "exercises" ? <Exercises /> : ""}
           </div>
         </div>
       </div>
