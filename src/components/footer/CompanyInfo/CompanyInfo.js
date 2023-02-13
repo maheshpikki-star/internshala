@@ -9,7 +9,9 @@ const CompanyInfo = () => {
       <div className="footerItems">
         <h3 className="footerItems__title">Company</h3>
         <div className="footerItems__items">
-          <Link to="/about">About</Link>
+          <a href="/about.html" target="_blank">
+            About
+          </a>
           <Link to="/hiring">We're Hiring</Link>
           <Link to="/shop">Shop</Link>
         </div>
