@@ -39,6 +39,20 @@
       defer=""
       src="https://unpkg.com/apxor-rtm"
     ></script>
+    <script defer="">
+      setTimeout(()=>{
+        window.Apxor.init(
+        "cfd1eb74-b691-4971-96a3-113d77df9dc5",
+        {
+          plugins: ["ApxorRTM"],
+          version: "0.1",
+        },
+        (e) => console.log("Successfully Initialized Apxor SDK:", e),
+        (e) => console.log("Apxor SDK Initialization failed:", e)
+      );
+      },1000)
+      
+    </script>
   </head>
 
   <body>
