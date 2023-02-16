@@ -24,21 +24,22 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Apxor</title>
-    <script
-      type="text/javascript"
-      defer=""
-      src="https://unpkg.com/apxor@1.7.6/dist/apxor.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      defer=""
-      src="https://unpkg.com/apxor-qe"
-    ></script>
-    <script
-      type="text/javascript"
-      defer=""
-      src="https://unpkg.com/apxor-rtm"
-    ></script>
+    <script src="apxor.min.js"></script>
+    <script src="apxor.qe.min.js"></script>
+    <script src="apxor.rtm.min.js"></script>
+    <script defer="">
+      setTimeout(() => {
+        window.Apxor.init(
+          "cfd1eb74-b691-4971-96a3-113d77df9dc5",
+          {
+            plugins: ["ApxorRTM"],
+            version: "0.1",
+          },
+          (e) => console.log("Successfully Initialized Apxor SDK:", e),
+          (e) => console.log("Apxor SDK Initialization failed:", e)
+        );
+      }, 1000);
+    </script>
     <script>
       function logClickEvent() {
         console.log("Nudge_Button_Clicked logged");
