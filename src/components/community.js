@@ -32,72 +32,67 @@ const Community = () => {
 
   return (
     <div
-      style={{ textAlign: "center", maxWidth: "300px", margin: "20px auto" }}
+      style={{ textAlign: "center", maxWidth: "210px", margin: "10px auto" }}
       className="App"
     >
       <br></br>
       <br></br>
       <br></br>
-      <u>
-        <h1>Contact Us</h1>
-      </u>
-      <Form onSubmit={handleOnSubmit}>
-        <Form.Field
-          style={{
-            border: "1px solid black",
-            borderRadius: "10px",
-            padding: "20px",
-           outerHeight:"40px",
-            
-          }}
-          id="form-input-control-email"
-          control={Input}
-          label="Email"
-          name="user_email"
-          placeholder="Email…"
-          required
-        />
-        <Form.Field
-          style={{
-            border: "1px solid black",
-            borderRadius: "10px",
-            padding: "20px",
-            
-          }}
-          id="form-input-control-last-name"
-          control={Input}
-          label="Name"
-          name="user_name"
-          placeholder="Name…"
-          required
-        />
-        <Form.Field
-          style={{
-            border: "1px solid black",
-            borderRadius: "10px",
-            padding: "40px",
-          }}
-          id="form-textarea-control-opinion"
-          control={TextArea}
-          label="Message"
-          name="user_message"
-          placeholder="Message…"
-          required
-        />
-        <Button
-          style={{
-            border: "1px solid lightgray",
-            borderRadius: "20px",
-            padding: "20px",
-            backgroundColor: "black",
-            color: "white",
-          }}
-          type="submit"
-          color="green"
-        >
-          Submit
-        </Button>
-      </Form>
+      <div style={{ backgroundColor: "rgb(20 169 129)", marginTop: "90px", height:"330px", }}>
+        
+        <h2 style={{ color: "#fff", paddingTop: "10px" }}>Contact Us</h2>
+        <hr></hr>
+       
+        <Form onSubmit={handleOnSubmit}>
+          <Form.Field
+            style={{
+              borderRadius: "10px",
+            }}
+            id="form-input-control-email"
+            control={Input}
+            label="Email"
+            name="user_email"
+            placeholder="Email…"
+            required
+          />
+          <Form.Field
+            style={{
+              borderRadius: "10px",
+            }}
+            id="form-input-control-last-name"
+            control={Input}
+            label="Name"
+            name="user_name"
+            placeholder="Name…"
+            required
+          />
+          <Form.Field
+            style={{
+              borderRadius: "10px",
+            }}
+            id="form-textarea-control-opinion"
+            control={TextArea}
+            label="Message"
+            name="user_message"
+            placeholder="Message…"
+            required
+          />
+          <Button
+            style={{
+              border: "1px solid lightgray",
+              borderRadius: "20px",
+              padding: "20px",
+              backgroundColor: "black",
+              color: "white",
+            }}
+            type="submit"
+            color="green"
+          >
+            Submit
+          </Button>
+          
+        </Form>
+      </div>
     </div>
   );
 };
