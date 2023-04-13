@@ -13,19 +13,19 @@ const NavbarItems = () => {
   };
   return (
     <>
-      <Link to="/" onClick={(e) => logPageEvent(e, "HomePageViewed", "ON")}>
+      <Link
+        to="/"
+        style={{ paddingRight: "25px" }}
+        onClick={(e) => logPageEvent(e, "HomePageViewed", "ON")}
+      >
         Home
       </Link>
 
-      <Link
-        to="/catalog"
-        onClick={(e) => logPageEvent(e, "CourseCatalogPageViewed", "OFF")}
-      >
-        Course Catalog
-      </Link>
+      
 
       <Link
         to="/resources"
+        style={{ paddingRight: "25px" }}
         onClick={(e) => logPageEvent(e, "ResourcesPageViewed", "OFF")}
       >
         Resources
@@ -33,9 +33,10 @@ const NavbarItems = () => {
 
       <Link
         to="/community"
+        style={{ paddingRight: "25px" }}
         onClick={(e) => logPageEvent(e, "CommunityPageViewed", "OFF")}
       >
-        Community
+        Contact Us
       </Link>
 
       <img

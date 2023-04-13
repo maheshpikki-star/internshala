@@ -18,7 +18,7 @@ const CourseCatalog = () => {
         <div className="footerItems">
           <h3 className="footerItems__title">Languages</h3>
           <div className="footerItems__items courseItems">
-            <a href="/languages/htmlcss/intro" onClick={logLoadEvent}>
+            <a href="/languages/hypertext/intro" onClick={logLoadEvent}>
               HTML & CSS
             </a>
             <a href="/languages/javascript/intro" onClick={logLoadEvent}>
@@ -53,18 +53,7 @@ const CourseCatalog = () => {
             <a href="/subjects/git" onClick={logLoadEvent}>
               Guide to Git
             </a>
-            <a href="/subjects/webdev" onClick={logLoadEvent}>
-              Web Development
-            </a>
-            <a href="/subjects/cs" onClick={logLoadEvent}>
-              Computer Science
-            </a>
-            <a href="/subjects/devhrefols" onClick={logLoadEvent}>
-              Developer hrefols
-            </a>
-            <a href="/subjects/funcprogramming" onClick={logLoadEvent}>
-              Functional Programming
-            </a>
+
             <a href="/subjects/webdesign" onClick={logLoadEvent}>
               Web design{" "}
             </a>

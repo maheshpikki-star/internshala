@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Footer from "../../footer/Footer";
 import Accordion from "../../Catalog/accordion/Accordion";
 import { useParams } from "react-router-dom";
-import Intro from "./Intro";
+import Intro from "./Introscala";
 import Resources from "./Resources";
 
 const topics = [
