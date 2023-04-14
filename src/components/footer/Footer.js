@@ -11,7 +11,6 @@ const Footer = () => {
           <CompanyInfo />
           <CourseCatalog />
         </div>
-
         <CopyWriteInfo />
       </div>
     </div>

@@ -51,7 +51,7 @@ function App() {
         <Route path="/languages/scala/intro" element={<Scala />} />
         <Route path="/frontendengineer" element={<FrontEndEngineer />} />
         <Route path="/docker" element={<Docker />} />
-        <Route path="/community" element={<Community />} />
+        <Route path="/community" element={<Community/>} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/datascience" element={<DataScience />} />
         <Route path="/subjects">
