@@ -15,7 +15,7 @@
 
 .catalogCard {
 	border: 1px solid $color-black;
-	background-color: white;
+	background-color:#fff;
 	border-radius: 2px;
 	padding: 0 $padding-lg;
 	transition: all 0.2s ease-in-out;
@@ -30,8 +30,15 @@
 }
 
 .catalogCard:hover {
-	box-shadow: -10px 10px 0px -2px $color-black;
-	transform: translate(5px, -1px);
+	// box-shadow: -10px 10px 0px -2px $color-black;
+	// transform: translate(5px, -1px);
+
+	box-shadow: -3px 6px 5px 0px rgba(176, 164, 176, 1);
+	transition: all .3s ease-in-out;
+
+	box-shadow: rgba(190, 15, 179, 0.22) 0px 19px 43px;
+	transform: translate3d(0px, -1px, 0px);
+	transform: scale(1.05);
 }
 
 .exploreCard {
@@ -60,7 +67,7 @@
 
 	&-difficulty {
 		background-color: $color-black;
-		color: white;
+		color: black;
 		text-transform: uppercase;
 		margin-right: 0.3em;
 		// font-size: 0.9rem;
@@ -151,7 +158,7 @@
 
 	&-difficulty {
 		background-color: $color-black;
-		color: white;
+		color: black;
 		text-transform: uppercase;
 		margin-right: 0.3em;
 	}
@@ -164,7 +171,7 @@
 	&--job {
 		padding: $padding-sml $padding-md;
 
-		background-color: #f5fcff;
+		background-color: #000;
 		font-size: $font-size-sml;
 		margin-top: auto;
 		margin-left: auto;

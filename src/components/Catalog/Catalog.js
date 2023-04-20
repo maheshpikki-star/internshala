@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import Quiz from "../quiz/Quiz";
 import PopularCatalog from "./PopularCatalog";
-import GetInpsire from "./getInspireSectiion/GetInspire";
 import Footer from "../footer/Footer";
 import Accordion from "./accordion/Accordion";
 import Apxor from "apxor";
@@ -26,7 +25,7 @@ const languages = [
   },
   {
     desc: "HTML & CSS",
-    loc: "/languages/htmlcss/intro",
+    loc: "/languages/hypertext/intro",
     type: "Language",
     topic: "",
   },
@@ -75,30 +74,10 @@ const subjects = [
     type: "Subjects",
     topic: "",
   },
-  {
-    desc: "Web Development",
-    loc: "/subjects/webdev",
-    type: "Subjects",
-    topic: "",
-  },
-  {
-    desc: "Computer Science",
-    loc: "/subjects/cs",
-    type: "Subjects",
-    topic: "",
-  },
-  {
-    desc: "Developer Tools",
-    loc: "/subjects/devtools",
-    type: "Subjects",
-    topic: "",
-  },
-  {
-    desc: "Functional Programming",
-    loc: "/subjects/funcprogramming",
-    type: "Subjects",
-    topic: "",
-  },
+  
+  
+  
+  
   {
     desc: "Web design",
     loc: "/subjects/webdesign",
@@ -125,7 +104,7 @@ const Catalog = () => {
           <div className="catalogContainer__inner">
             <Quiz />
             <PopularCatalog />
-            <GetInpsire />
+           
           </div>
         </div>
       </div>

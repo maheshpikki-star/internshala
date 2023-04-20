@@ -21,7 +21,7 @@ const CopyWriteInfo = () => {
           Terms
         </Link>
       </div>
-      <p className="copyWriteInfo__company">Made with️ ❤️ by Ravi</p>
+      <p className="copyWriteInfo__company">Made with️ ❤️ by Web SDK Team</p>
     </div>
   );
 };
