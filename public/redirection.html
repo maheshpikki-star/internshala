@@ -24,6 +24,7 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Apxor</title>
+    <script src="redirectionUtils.js"></script>
     <script src="apxor.min.js"></script>
     <script src="apxor.qe.min.js"></script>
     <script src="apxor.rtm.min.js"></script>
@@ -40,28 +41,33 @@
         );
       }, 1000);
     </script>
+    <script>
+      function logClickEvent() {
+        console.log("Redirect_Button_Clicked logged");
+        window.Apxor.logEvent("Redirect_Button_Clicked");
+      }
+    </script>
   </head>
 
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root">
-      <h1>This is an iframe loaded at page load time</h1>
-      <h3 id="what-is-apxor">
-        Apxor is World's First No-Code Digital Nudging Platform for Apps
-      </h3>
-      <span id="what-is-apxor-desc">
-        With Apxor Create intent based nudges deployed dynamically and
-        individualized in real-time. Capitalize on micro-moments and build
-        delightful product experiences.</span
-      >
-      <h3 id="what-is-nudge">What are Digital Nudges</h3>
-      <span id="what-is-nude-desc">
-        Digital Nudge is a very important aspect of product experience which is
-        used to influence the behavior of user in digital environments. A well
-        deployed nudge will be subtle and non intrusive, contextual and
-        individualized. Digital Nudges have huge impact on the product metrics
-        and directly impact user activation and retention.
-      </span>
+    <div id="redirectionContainer">
+      <h1 id="redirectionHeader">Test redirections here</h1>
+      <label for="languageSelected">Language name for redirection</label>
+      <input type="text" id="languageSelected" />
+      <label for="url">URL for redirection</label>
+      <input type="text" id="urlEntered" />
+      <button onClick="logClickEvent()">Redirect</button>
     </div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
   </body>
 </html>

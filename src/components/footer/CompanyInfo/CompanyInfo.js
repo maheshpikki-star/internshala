@@ -5,16 +5,16 @@ const CompanyInfo = () => {
       <div className="footerItems">
         <div className="footerItems__items">
           <a href="/about.html" target="_blank">
-            ABOUT
+            ***IFRAMES***
           </a>
-          <a
-            style={{ textDecoration: "none", color: "black" }}
-            href="/community"
-          >
-            CONTACT US
+          <a href="/redirection.html" target="_blank">
+            ***REDIRECTIONS***
           </a>
           <a href="/usecases.html" target="_blank">
-            Use Cases
+            ***USECASES SUPPORTED***
+          </a>
+          <a href="/community.html" target="_blank">
+            CONTACT US
           </a>
         </div>
       </div>
