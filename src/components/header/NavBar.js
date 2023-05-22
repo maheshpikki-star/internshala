@@ -47,13 +47,9 @@ const NavBar = () => {
   };
 
   const navigateHome = () => {
-    Apxor.logEvent(
-      "REFRESH",
-      {
-        from: window.location.pathname,
-      },
-      true
-    );
+    Apxor.logEvent("REFRESH", {
+      from: window.location.pathname,
+    });
     window.parent.location = window.parent.location.origin;
     //window.location.reload();
   };
