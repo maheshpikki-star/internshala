@@ -13,6 +13,8 @@ Apxor.init(
     plugins: ["ApxorRTM"],
     deps: [ApxorRTM, CE],
     version: "0.1",
+    debug: true,
+    level: "debug",
   },
   (e) => console.log("Successfully Initialized Apxor SDK:", e),
   (e) => console.log("Apxor SDK Initialization failed:", e)
