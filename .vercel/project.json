@@ -1,1 +1,16 @@
-{"projectId":"prj_mijnO2VgqjfdSAQI146u1MTSHiQ1","orgId":"Lz3MkjHFeqvAvS3WeXIA0tN5"}
+{
+  "projectId": "prj_mijnO2VgqjfdSAQI146u1MTSHiQ1",
+  "orgId": "Lz3MkjHFeqvAvS3WeXIA0tN5",
+  "projectName": "testweb",
+  "settings": {
+    "createdAt": 1669393913203,
+    "framework": "create-react-app",
+    "devCommand": null,
+    "installCommand": null,
+    "buildCommand": null,
+    "outputDirectory": null,
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "22.x"
+  }
+}
