@@ -21,14 +21,14 @@ importers:
         specifier: ^13.5.0
         version: 13.5.0(@testing-library/dom@8.20.1)
       apxor:
-        specifier: ^3.0.1
-        version: 3.0.1
+        specifier: ^3.0.3
+        version: 3.0.3
       apxor-qe:
-        specifier: ^2.0.1
-        version: 2.0.1
+        specifier: ^2.0.3
+        version: 2.0.3
       apxor-rtm:
-        specifier: ^2.0.4
-        version: 2.0.4
+        specifier: ^2.0.6
+        version: 2.0.6
       emailjs-com:
         specifier: ^3.2.0
         version: 3.2.0
@@ -2036,16 +2036,16 @@ packages:
     resolution: {integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==}
     engines: {node: '>= 8'}
 
-  apxor-qe@2.0.1:
-    resolution: {integrity: sha512-8abt8k4xzzexDFHhkXxzX8JXbp6LhT4ZeoVoluOPvkw9JcxblH3HwAo0gGZXfOBztynyuWfwP39NoG0xP2WjNQ==}
+  apxor-qe@2.0.3:
+    resolution: {integrity: sha512-XhT94sIKl8yHTpa0uO2D9K0YqihMHZPlB/4szYKTzZ73TemxvpDkY5uJxh36+GT+WzpeVn8kBsgXvDz2BO+k3g==}
     engines: {node: '>=20', pnpm: '>=8'}
 
-  apxor-rtm@2.0.4:
-    resolution: {integrity: sha512-ok7JvWrOEzKhBrTNWyH2K456ijnbjlNWKKBi7W/gmsV9UgNrfHReXy9BhVK5XN4htBQjdfDslV+0UglRNp12Og==}
+  apxor-rtm@2.0.6:
+    resolution: {integrity: sha512-0VT7VjbB4+YC0doKgs3dh0rV+cHfYtW77pHJEScRXpSqwT1vI3aTkQ2zhdClF7bLHQa4VLEQCWaR6kHQTkDUcA==}
     engines: {node: '>=20', pnpm: '>=8'}
 
-  apxor@3.0.1:
-    resolution: {integrity: sha512-zJxTL7j7mXKY3lbXB6SmxgnQ8qFH4r1xoEFWlRuDvjhy/cXEiODQSQCBAXQ6Prgz4Ay3NyGikIczdv17LLRnAQ==}
+  apxor@3.0.3:
+    resolution: {integrity: sha512-uVeEzP0LkqeMR4GEuFXIjqkLxTuJdaf8CQNj+u0Zeg1Fc6xVTBb2IQTjr/Fyr1QAcmIdpL5SlbuyiI0jkUHBCg==}
     engines: {node: '>=20', pnpm: '>=8'}
 
   arg@4.1.0:
@@ -9610,9 +9610,9 @@ snapshots:
       normalize-path: 3.0.0
       picomatch: 2.3.1
 
-  apxor-qe@2.0.1:
+  apxor-qe@2.0.3:
     dependencies:
-      apxor: 3.0.1
+      apxor: 3.0.3
       jsdom: 22.1.0
     transitivePeerDependencies:
       - bufferutil
@@ -9620,10 +9620,10 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  apxor-rtm@2.0.4:
+  apxor-rtm@2.0.6:
     dependencies:
-      apxor: 3.0.1
-      apxor-qe: 2.0.1
+      apxor: 3.0.3
+      apxor-qe: 2.0.3
       tippy.js: 6.3.7
     transitivePeerDependencies:
       - bufferutil
@@ -9631,7 +9631,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  apxor@3.0.1: {}
+  apxor@3.0.3: {}
 
   arg@4.1.0: {}
 

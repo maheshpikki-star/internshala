@@ -50,6 +50,7 @@
   },
   "devDependencies": {
     "@babel/preset-env": "^7.20.2",
+    "baseline-browser-mapping": "^2.9.7",
     "jest": "^27.5.1",
     "jest-puppeteer": "^6.1.1",
     "puppeteer": "^17.1.3"
