@@ -4,6 +4,8 @@ declare namespace CE {
     validate(id: string, index: number): void;
     getCount(id: string): number;
     updateCount(id: string): void;
+    getQeState(): object;
+    setQeState(id: string): object;
     registerForEvent(event: any, callback: any): void;
     unregisterFromEvent(event: any, callback: any): void;
     fetch(type: any, vUrl: string, aUrl: string, callback: any): void;

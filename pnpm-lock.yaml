@@ -21,14 +21,14 @@ importers:
         specifier: ^13.5.0
         version: 13.5.0(@testing-library/dom@8.20.1)
       apxor:
-        specifier: ^3.0.3
-        version: 3.0.3
+        specifier: ^3.0.4
+        version: 3.0.4
       apxor-qe:
-        specifier: ^2.0.3
-        version: 2.0.3
+        specifier: ^2.0.4
+        version: 2.0.4
       apxor-rtm:
-        specifier: ^2.0.6
-        version: 2.0.6
+        specifier: ^2.0.7
+        version: 2.0.7
       emailjs-com:
         specifier: ^3.2.0
         version: 3.2.0
@@ -69,6 +69,9 @@ importers:
       '@babel/preset-env':
         specifier: ^7.20.2
         version: 7.28.3(@babel/core@7.28.4)
+      baseline-browser-mapping:
+        specifier: ^2.9.7
+        version: 2.9.11
       jest:
         specifier: ^27.5.1
         version: 27.5.1(ts-node@10.9.1(@types/node@16.18.11)(typescript@4.9.5))
@@ -2036,16 +2039,16 @@ packages:
     resolution: {integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==}
     engines: {node: '>= 8'}
 
-  apxor-qe@2.0.3:
-    resolution: {integrity: sha512-XhT94sIKl8yHTpa0uO2D9K0YqihMHZPlB/4szYKTzZ73TemxvpDkY5uJxh36+GT+WzpeVn8kBsgXvDz2BO+k3g==}
+  apxor-qe@2.0.4:
+    resolution: {integrity: sha512-C+8bt8LSMEx1cUft14kcRXd6am34LJPQxpfMmLuiqWIlN/bT7hi7aaBMJRYs7c+9LayOlQdiUJ6KjIZiEehQcA==}
     engines: {node: '>=20', pnpm: '>=8'}
 
-  apxor-rtm@2.0.6:
-    resolution: {integrity: sha512-0VT7VjbB4+YC0doKgs3dh0rV+cHfYtW77pHJEScRXpSqwT1vI3aTkQ2zhdClF7bLHQa4VLEQCWaR6kHQTkDUcA==}
+  apxor-rtm@2.0.7:
+    resolution: {integrity: sha512-9qSWyR1H2hASDeKmTeHy/pzF4Ai+ta4jRAtAlb3y7OM0Wl4df8POv49QAbRDpBXPowEH2dUnPYFFoVrmpbLDlA==}
     engines: {node: '>=20', pnpm: '>=8'}
 
-  apxor@3.0.3:
-    resolution: {integrity: sha512-uVeEzP0LkqeMR4GEuFXIjqkLxTuJdaf8CQNj+u0Zeg1Fc6xVTBb2IQTjr/Fyr1QAcmIdpL5SlbuyiI0jkUHBCg==}
+  apxor@3.0.4:
+    resolution: {integrity: sha512-GxNfSK73Vp9rw0JC6J2XM/l0PUItIcaxyTPhRNrTy3Hm49K4QHK7rlU+0//QcQ50GXhUfy62QlqgcDZIgXhwzQ==}
     engines: {node: '>=20', pnpm: '>=8'}
 
   arg@4.1.0:
@@ -2247,8 +2250,8 @@ packages:
   base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
 
-  baseline-browser-mapping@2.8.9:
-    resolution: {integrity: sha512-hY/u2lxLrbecMEWSB0IpGzGyDyeoMFQhCvZd2jGFSE5I17Fh01sYUBPCJtkWERw7zrac9+cIghxm/ytJa2X8iA==}
+  baseline-browser-mapping@2.9.11:
+    resolution: {integrity: sha512-Sg0xJUNDU1sJNGdfGWhVHX0kkZ+HWcvmVymJbj6NSgZZmW/8S9Y2HQ5euytnIgakgxN6papOAWiwDo1ctFDcoQ==}
     hasBin: true
 
   batch@0.6.1:
@@ -6946,6 +6949,7 @@ packages:
   whatwg-encoding@2.0.0:
     resolution: {integrity: sha512-p41ogyeMUrw3jWclHWTQg1k05DSVXPLcVxRTYsXUk+ZooOCZLcoYgPZ/HL/D/N+uQPOtcp1me1WhBEaX02mhWg==}
     engines: {node: '>=12'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-fetch@3.6.20:
     resolution: {integrity: sha512-EqhiFU6daOA8kpjOWTL0olhVOF3i7OrFzSYiGsEMB8GcXS+RrzauAERX65xMeNWVqxA6HXH2m69Z9LaKKdisfg==}
@@ -9610,9 +9614,9 @@ snapshots:
       normalize-path: 3.0.0
       picomatch: 2.3.1
 
-  apxor-qe@2.0.3:
+  apxor-qe@2.0.4:
     dependencies:
-      apxor: 3.0.3
+      apxor: 3.0.4
       jsdom: 22.1.0
     transitivePeerDependencies:
       - bufferutil
@@ -9620,10 +9624,10 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  apxor-rtm@2.0.6:
+  apxor-rtm@2.0.7:
     dependencies:
-      apxor: 3.0.3
-      apxor-qe: 2.0.3
+      apxor: 3.0.4
+      apxor-qe: 2.0.4
       tippy.js: 6.3.7
     transitivePeerDependencies:
       - bufferutil
@@ -9631,7 +9635,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  apxor@3.0.3: {}
+  apxor@3.0.4: {}
 
   arg@4.1.0: {}
 
@@ -9912,7 +9916,7 @@ snapshots:
 
   base64-js@1.5.1: {}
 
-  baseline-browser-mapping@2.8.9: {}
+  baseline-browser-mapping@2.9.11: {}
 
   batch@0.6.1: {}
 
@@ -9981,7 +9985,7 @@ snapshots:
 
   browserslist@4.26.2:
     dependencies:
-      baseline-browser-mapping: 2.8.9
+      baseline-browser-mapping: 2.9.11
       caniuse-lite: 1.0.30001745
       electron-to-chromium: 1.5.227
       node-releases: 2.0.21

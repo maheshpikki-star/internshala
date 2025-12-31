@@ -15,6 +15,8 @@ declare namespace Apxor {
     events_upload_time?: number;
     retry_time?: number;
     deps?: any;
+    bulk_upload?: boolean;
+    auto_event_logging?: boolean;
   }
 
   /**
@@ -38,7 +40,9 @@ declare namespace Apxor {
   function logEvent(
     name: string,
     properties: FieldsObject,
-    category: string
+    forceReport: boolean,
+    loggedBy: string,
+    apx_nudge_type: string
   ): void;
 
   function logClientEvent(name: string, properties: FieldsObject): void;
@@ -60,6 +64,18 @@ declare namespace Apxor {
   function getSiteId(): string;
 
   function setRedirectionHandler(callback: any): void;
+
+  function setInitFlag(initialized: boolean): void;
+
+  function setIsFlutter(isFlutter: boolean): void;
+
+  function isFlutter(): boolean;
+
+  function registerApxorFlutterHelper(obj: Object): void;
+
+  function getApxorFlutterHelper(): Object;
+
+  function clearLocalStorage(): void;
 }
 
 export default Apxor;
