@@ -27,8 +27,8 @@ importers:
         specifier: ^2.0.4
         version: 2.0.4
       apxor-rtm:
-        specifier: ^2.0.7
-        version: 2.0.7
+        specifier: 2.0.8-qa.1
+        version: 2.0.8-qa.1
       emailjs-com:
         specifier: ^3.2.0
         version: 3.2.0
@@ -2043,8 +2043,8 @@ packages:
     resolution: {integrity: sha512-C+8bt8LSMEx1cUft14kcRXd6am34LJPQxpfMmLuiqWIlN/bT7hi7aaBMJRYs7c+9LayOlQdiUJ6KjIZiEehQcA==}
     engines: {node: '>=20', pnpm: '>=8'}
 
-  apxor-rtm@2.0.7:
-    resolution: {integrity: sha512-9qSWyR1H2hASDeKmTeHy/pzF4Ai+ta4jRAtAlb3y7OM0Wl4df8POv49QAbRDpBXPowEH2dUnPYFFoVrmpbLDlA==}
+  apxor-rtm@2.0.8-qa.1:
+    resolution: {integrity: sha512-6Rb2aWwC8iN2G27PSySyuV6hZyQMWrQgkAMdcA1ukQxHFKgSGT+lFmpgJh6Z6We1YzpReK+AK8ZdApMcBdZClA==}
     engines: {node: '>=20', pnpm: '>=8'}
 
   apxor@3.0.4:
@@ -9624,7 +9624,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  apxor-rtm@2.0.7:
+  apxor-rtm@2.0.8-qa.1:
     dependencies:
       apxor: 3.0.4
       apxor-qe: 2.0.4
