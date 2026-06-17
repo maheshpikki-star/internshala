@@ -17,7 +17,7 @@ Apxor.init(
     level: "debug",
   },
   (e) => console.log("Successfully Initialized Apxor SDK:", e),
-  (e) => console.log("Apxor SDK Initialization failed:", e)
+  (e) => console.log("Apxor SDK Initialization failed:", e),
 ); //Initializing Apxor
 
 ReactDOM.render(
@@ -26,5 +26,5 @@ ReactDOM.render(
       <App />
     </BrowserRouter>
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById("root"),
 );
