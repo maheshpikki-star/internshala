@@ -74,10 +74,7 @@ const subjects = [
     type: "Subjects",
     topic: "",
   },
-  
-  
-  
-  
+
   {
     desc: "Web design",
     loc: "/subjects/webdesign",
@@ -88,6 +85,15 @@ const subjects = [
 
 const Catalog = () => {
   useEffect(() => {
+    const AEL = {
+      onEvent(type, properties) {
+        if (type === "apx_campaign_show") {
+          window.Apxor.logEvent("mahesh", properties);
+        }
+      },
+    };
+
+    Apxor.setApxorEventListener(AEL);
     Apxor.logEvent("HomePageLauched");
     document.title = "Internshala";
   }, []);
@@ -104,7 +110,6 @@ const Catalog = () => {
           <div className="catalogContainer__inner">
             <Quiz />
             <PopularCatalog />
-           
           </div>
         </div>
       </div>
